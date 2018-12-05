@@ -1,0 +1,468 @@
+@font-face {
+	font-family: bebas;
+	src: url(../font/BEBAS.ttf);
+}
+
+/* ---------------Home---------------- */
+body {
+	display: grid;
+	grid-template-columns: auto 70% auto;
+
+	margin: 0;
+	
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	grid-column: 2;
+	font-family: Bebas;
+}
+
+.hname{
+	display: flex;
+}
+
+.jet{
+	color: #E85F3C;
+}
+
+.ro {
+	color: #F2AD9D;
+}
+
+.imgcont{
+	grid-column: 2;
+	grid-row: span 7;	
+}
+
+header h1{
+	color: #E85F3C;
+}
+
+header ul {
+	display: flex;
+}
+
+
+header li {
+	list-style: none;
+	margin: 5px;
+}
+
+header a{
+	text-decoration: none;
+}
+
+main{
+	grid-column: 2;	
+	font-family: Helvetica Neue;
+}
+
+.inhoud p {
+	margin-top: 5%;
+}
+
+
+.slidehome{
+	margin-top: 1%;
+	grid-row: span 20;
+	width: 100%;
+	height: 90%;
+}
+
+.smallinfo{
+grid-row: 3;
+}
+
+.slidepx{
+	margin-top: 1%;
+	width: 100%;
+	height: 100%;
+}
+
+.simgs{
+	display: grid;
+	display: flex;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	justify-content: space-between;
+}
+
+.inhoud2{
+	margin-bottom: 5%;
+}
+
+.tab p{
+	background-color: #C2C2C2;
+}
+
+.recentwork{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.recentwork h3{
+	margin: 0;
+}
+
+.recentwork p {
+	margin-top: 0;
+}
+
+footer{
+	background-color:#E85F3C;
+	grid-column: 2;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	
+}
+
+
+footer div{
+ margin-right: 4%;
+}
+
+.socialmedia{
+	float: left;
+}
+
+.color1{
+	display: grid;
+	grid-row: 10/11;
+	grid-column: 1/2 ;
+	margin-right: 2%;	
+	background-color: #F2AD9D;
+}
+.color2{
+	display: grid;
+	grid-row: 10/11;
+	grid-column: 3/4 ;
+	margin-left: 2%;
+	background-color: #F2AD9D;
+}
+
+.color3{
+height: 60px;
+	display: grid;
+	grid-row: 2/3;
+	grid-column: 1/2 ;
+	margin-right: 2%;
+	background-color: #F2AD9D;
+}
+.color4{
+	height: 60px;
+	display: grid;
+	grid-row: 2/3;
+	grid-column: 3/4 ;
+	margin-left: 2%;
+	background-color: #F2AD9D;
+}
+
+@media only screen and (max-width: 1450px){
+
+	.recentwork{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
+	.simgs{
+	display: grid;
+
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	justify-content: space-between;
+	}
+
+
+
+
+
+}
+
+/* --------------Portfolioclick---------------- */
+
+.title{
+	grid-row: 2/3;
+	grid-column: 2/3;
+	background-color: #E85F3C;
+}
+
+.title p {
+	color: #FFFFFF;
+	margin-left: 2%;
+	font-size: 120%;
+	font-family: 'Bebas Neue';
+}
+
+.imgport{
+	grid-column: 2;
+	grid-row: span 7;
+}
+
+
+
+/* --------------Portfolio---------------- */
+
+.gridl {
+  display: grid;
+  grid-column-gap: 1%;
+  padding-top: 1%;
+  grid-template-columns: auto auto auto auto;
+}
+
+.buttons{
+	margin-top: 1%;
+	grid-column: 2;
+}
+
+.buttons button{
+background-color: #FFFFFF;
+color:#000000;
+text-align: bottom;
+border: none;
+}
+
+.buttons button:hover{
+	color: #FFFFFF;
+background-color: #FFB85C;
+text-align: bottom;
+border: none;
+}
+
+.imglink {
+	border-style: dotted;
+	border-width: 1px;
+  font-size: 80%;
+  margin-bottom: 5%;
+}
+
+.imglink h3{
+	margin: 0;
+padding: 0;
+}
+
+.imglink p {
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 5%;
+	padding: 0;
+	text-decoration: none;
+}
+
+.imglink a{
+	 text-decoration: none;
+	 color:  #000000;
+}
+
+@media only screen and (max-width: 1450px){
+	.gridl {
+	  display: grid;
+	  grid-column-gap: 30%;
+	  grid-template-columns: auto auto;
+	  grid-template-rows: auto auto;
+	  padding: 1%;
+	  width: 50%;
+	}
+}
+
+
+
+/* ------------Contact us----------- */
+
+.imgcont{
+	display: grid;
+	grid-template-columns:10% 60% 30%;
+}
+
+.menu{
+	grid-column: 3;
+	margin-left: 10%;
+}
+
+.menu h3{
+ color:red;
+}
+
+.menu ul{
+	list-style: none;
+}
+
+.grid-container {
+  display: grid;
+  width: 5px;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  grid-template-columns: auto auto auto auto;
+}
+
+li{
+	list-style: none;
+}
+
+.grid-item {
+  background-color: #FC6E6E;
+  border: 2px solid #FF0000;
+  padding: 0;
+  height: 50px;
+  width: 50px;
+}
+
+.inhoud2{
+	display: grid;
+	grid-template-columns: 30% 70%;
+}
+
+.infoleft{
+	grid-row: 1;
+}
+
+.licolor {
+	color: #FF9000;
+}
+
+.inforight{
+	color: #FF9000;
+}
+ul{
+padding: 0;
+}
+
+
+.normal{
+	margin: 2%;
+		font-weight: bolder;
+border-style: solid;
+border-width: 1px;
+padding-top: 1%;
+padding-left: 1%;
+padding-bottom: 1%;
+padding-right: 5%;
+width: 20%;
+}
+
+.big{
+	margin: 2%;
+	font-weight: bolder;
+	border-style: solid;
+	border-width: 1px;
+	padding-top:1%;
+	padding-left:1%;
+	padding-right:40%;
+	padding-bottom: 20%;
+	width: 20%;
+}
+
+button{
+	margin-left: 2%;
+	color: #FFFFFF;
+	background-color: #FF9000
+}
+
+
+/* --------------- */
+
+main{
+	grid-column: span 2;
+	grid-row:1;
+}
+
+.dwi img{
+	float: left;
+	margin-right: 1%;
+}
+
+.biggerL{
+	font-size: 175%;
+	color:#FF9000 ;
+	margin: 0;
+	float: left;
+}
+
+.border{
+	margin-left: 15%;
+	font-style: italic;
+	border-left: 12px solid #FF9000;
+	border-collapse: 200px;
+	padding: 2%;
+}
+
+.tnext{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-gap: 40%;
+	
+}
+
+.ttrip{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-gap: 20%;
+}
+
+
+
+
+
+.Green{
+		display:flex;
+	justify-content: center;
+	align-items: center;
+	height: 60px;
+    color: #B0D635;
+    border: 1px solid #A2CF13;
+    background-color: #EEFDB8;
+    text-align: center;
+
+}
+
+.Red{
+		display:flex;
+	justify-content: center;
+	align-items: center;
+	height: 60px;
+    color: #E87053;
+    border: 1px solid #EF573F;
+    background-color: #FACCBF;
+    text-align: center;
+}
+
+
+.Orange{
+		display:flex;
+	justify-content: center;
+	align-items: center;
+		height: 60px;
+    color: #FAB418;
+    border: 1px solid #FDB71E;
+    background-color: #FDE9AC;
+    text-align: center;
+}
+
+.Blue{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+		height: 60px;
+    color: #4A8DCA;
+    border: 1px solid #5899D0;
+    background-color: #D0E3F2;
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width: 1450px){
+	.tnext{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-gap: 0%;
+		
+	}
+
+	.ttrip{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-gap: 0%;
+	}
+}

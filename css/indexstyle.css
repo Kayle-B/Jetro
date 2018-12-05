@@ -1,0 +1,225 @@
+/* ---------------Home---------------- */
+@font-face {
+	font-family: bebas;
+	src: url(../font/BEBAS.ttf);
+}
+
+body {
+	display: grid;
+	grid-template-columns: auto 70% auto;
+	grid-template-rows: ;
+margin: 0;
+}
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	grid-column: 2;
+	font-family: Bebas;
+}
+
+.hname{
+	display: flex;
+}
+
+.jet{
+	color: #E85F3C;
+}
+
+.ro {
+	color: #F2AD9D;
+}
+
+.img{
+	grid-column: 2;
+	grid-row: span 7;
+/* 	display: grid;
+grid-template-rows: 10% auto; 
+height: 100%;
+font-family: Bebas; */
+}
+
+header h1{
+	color: #E85F3C ;
+}
+
+header ul {
+	display: flex;
+}
+
+
+header li {
+	list-style: none;
+	margin: 5px;
+}
+
+header a{
+	text-decoration: none;
+}
+
+main{
+	grid-column: 2;	
+	font-family: Helvetica Neue;
+}
+
+.slide{
+	margin-top: 1%;
+	grid-row: span 20;
+	width: 100%;
+	height: 100%;
+}
+
+.simgs{
+	display: grid;
+	display: flex;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	justify-content: space-between;
+}
+
+.inhoud{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;	
+
+}
+
+.inhoud div{
+	margin-right: 4%;
+}
+
+.inhoud h3{
+ color:  #E85F3C;
+ 	font-family: Bebas;
+}
+
+.inhoud img{
+	margin-top: 1%;
+	width: 20%;
+	height: 20%;
+	float: left;
+}
+
+.gl{
+	display:flex;
+}
+
+.rw{
+
+
+
+}
+
+.lc{
+	margin-left: 2%;
+	margin-top: 1%;
+width: 85%;
+height: 5%;
+	background-color: #C2C2C2;	
+
+}
+
+.tab p{
+	background-color: #C2C2C2;
+}
+
+.recentwork{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.recentwork h3{
+	margin: 0;
+}
+
+.recentwork p {
+	margin-top: 0;
+}
+
+footer{
+	background-color: #E85F3C;
+	grid-column: 2;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	
+}
+
+footer div{
+ margin-right: 4%;
+}
+
+.socialmedia{
+	float: left;
+}
+
+.color1{
+	display: grid;
+	grid-row: 10/12;
+	grid-column: 1/2 ;
+	margin-right: 2%;	
+	background-color: #F2AD9D;
+}
+.color2{
+	display: grid;
+	grid-row: 10/12;
+	grid-column: 3/4 ;
+	margin-left: 2%;
+	background-color: #F2AD9D;
+}
+
+.color3{
+height: 60px;
+	display: grid;
+	grid-row: 2/3;
+	grid-column: 1/2;
+	margin-right: 2%;
+	background-color: #F2AD9D;
+}
+.color4{
+	height: 60px;
+	display: grid;
+	grid-row: 2/3;
+	grid-column: 3/4 ;
+	margin-left: 2%;
+	background-color: #F2AD9D;
+}
+
+@media only screen and (max-width: 1450px){
+
+	.recentwork{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
+	.simgs{
+	display: grid;
+
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	justify-content: space-between;
+	}
+}
+
+.inhoud a{
+	background-color: #E85F3C;
+	border: none;
+	padding: 3%;
+	color: #FFFFFF;
+}
+
+/* --------------Portfolio---------------- */
+
+.title{
+	grid-row: 2/3;
+	grid-column: 2/3;
+	background-color: #E85F3C;
+}
+
+.title p {
+	color: #FFFFFF;
+	margin-left: 2%;
+	font-size: 120%;
+	font-family: 'Bebas Neue';
+}
